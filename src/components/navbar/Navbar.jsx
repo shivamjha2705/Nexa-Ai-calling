@@ -13,7 +13,7 @@ const container = document.querySelector(".container_outer");
     <div className="container_outer">
     <div className="navbar">
       <div className="menu">
-        <h3 className="logo">Mayank<span>Rana</span></h3>
+        <h3 className="logo">NEXA<span></span></h3>
         <div onClick={hanldeNavbar}  className="hamburger-menu">
           <div className="bar"></div>
         </div>
