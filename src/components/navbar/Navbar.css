@@ -21,7 +21,7 @@ button {
   /* background-image: linear-gradient(135deg, #485461 0%, #28313b 74%); */
   background-image: linear-gradient(135deg, #485461 0%, #28313b 74%);
   overflow-x: hidden;
-  transform-style: preserve-3d;
+  /* transform-style: preserve-3d; */
 }
 
 .navbar {
@@ -124,7 +124,6 @@ header {
 }
 
 .inner {
-  max-width: 35rem;
   text-align: center;
   color: #fff;
   padding: 0 2rem;
@@ -201,7 +200,7 @@ ul {
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: 0.3s;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(10px);
   animation: hide 0.5s forwards ease;
 }
@@ -303,3 +302,35 @@ ul {
 .container_outer.active .main:hover {
   transform: perspective(1300px) rotateY(20deg) translateZ(340px) scale(0.5);
 }
+
+
+
+
+.robot{
+  animation: float 3s linear infinite;
+
+}
+
+/* @keyframes float {
+  0%, 100%{
+     rotate: 10deg;
+      transform: translateY(0rem);
+  }
+  50%{
+      transform: translateY(-3.5rem);
+  }
+} */
+
+
+/* @keyframes scaleAnimation {
+  from {
+    transform: scaleX(0.7) scaleY(0);
+  }
+  to {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+.container_outer {
+  animation: scaleAnimation 0.5s ease-in-out forwards;
+} */
