@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "css-loader": "^7.1.1",
+    "cursor-effects": "^1.0.15",
     "gsap": "^3.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
